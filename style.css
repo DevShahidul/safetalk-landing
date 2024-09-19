@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body font-normal text-white bg-black leading-[1.5];
+}
+
+@layer utilities {
+  .container {
+    @apply px-6 max-w-[1688px] mx-auto;
+  }
+  .container-sm {
+    @apply px-6 max-w-[1468px] mx-auto;
+  }
+}
