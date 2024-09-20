@@ -15,3 +15,9 @@ body {
     @apply px-6 max-w-[1468px] mx-auto;
   }
 }
+
+@layer components {
+  .chat-room > * {
+    grid-area: stack;
+  }
+}
