@@ -3,6 +3,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply leading-[1.5];
+  }
+
+  h2,
+  .h2 {
+    @apply text-h2-sm lg:text-h2 font-semibold;
+  }
+  h3,
+  .h3 {
+    @apply text-base lg:text-h3 leading-10 opacity-50;
+  }
+  p {
+    @apply text-base lg:text-2xl text-white opacity-50;
+  }
+}
+
 body {
   @apply font-body font-normal text-white bg-black leading-[1.5];
 }
@@ -19,5 +42,9 @@ body {
 @layer components {
   .chat-room > * {
     grid-area: stack;
+  }
+
+  .btn {
+    @apply px-3 2xl:px-5 py-2 2xl:py-4 bg-gradient-to-t from-[#939598] to-[#D5D6D7] rounded-full text-lg xl:text-xl font-open;
   }
 }

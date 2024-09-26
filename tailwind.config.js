@@ -7,6 +7,11 @@ module.exports = {
       open: ['"Open Sans", sans-serif'],
     },
     extend: {
+      fontSize: {
+        h2: "4rem", // 64px
+        "h2-sm": "1.625rem", // 26px,
+        h3: "2.125rem", // 34px
+      },
       keyframes: {
         moveEl: {
           "100%": {
