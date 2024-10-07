@@ -12,6 +12,9 @@ module.exports = {
         "h2-sm": "1.625rem", // 26px,
         h3: "2.125rem", // 34px
       },
+      lineHeight: {
+        12: "4.875rem", // 78px
+      },
       keyframes: {
         moveEl: {
           "100%": {
