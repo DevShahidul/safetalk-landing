@@ -523,14 +523,11 @@
         ></div>
         <div class="container pt-10 md:pt-20 lg:pt-56 pb-2">
           <div
-            class="flex flex-col md:flex-row text-center md:text-start gap-10 relative bg-[#939598] pl-24"
+            class="flex flex-col md:flex-row text-center md:text-start relative bg-[#939598] rounded-2xl pl-12 xl:pl-24"
           >
-            <img
-              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] aspect-square"
-              src="./assets/icon/logo-bg.png"
-              alt="Logo image"
-            />
-            <div class="w-full md:w-[42.680%] lg:pt-[153px]">
+            <div
+              class="w-full md:w-[calc(100%-62.662%)] pr-7 xl:pr-11 lg:pt-[153px]"
+            >
               <h3 class="md:max-w-[426px]">Make it safe.</h3>
               <h2 class="my-2 leading-6 md:leading-9 lg:leading-12">
                 Stop risking Your future
@@ -543,9 +540,14 @@
               <button class="btn text-sm lg:text-2xl">Order Now</button>
             </div>
 
-            <div class="relative w-full md:w-[56.1104%] max-w-full">
+            <div class="relative w-full md:w-[62.662%] max-w-full">
               <img
-                class="mx-auto max-w-full"
+                class="absolute top-1/2 left-0 -translate-y-1/2 max-w-[500px] max-h-[583px] w-full aspect-square"
+                src="./assets/icon/logo-bg.png"
+                alt="Logo image"
+              />
+              <img
+                class="float-right max-w-full w-[863px] z-10 relative"
                 src="./assets/icon/service.png"
                 alt="box"
               />
