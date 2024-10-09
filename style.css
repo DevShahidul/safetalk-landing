@@ -28,6 +28,9 @@ body {
   .container-sm {
     @apply px-6 max-w-[1468px] mx-auto;
   }
+  .container-xl {
+    @apply px-6 max-w-[1910px] mx-auto;
+  }
 }
 
 @layer components {
